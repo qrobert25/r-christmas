@@ -1,0 +1,53 @@
+#prueba> div{
+	font-family: 'Shadows Into Light', cursive;
+	-webkit-animation: easterEgg 1.2s ease-in-out infinite alternate;
+	cursor: default;
+}
+@keyframes easterEgg {
+	from{
+		-webkit-transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+	to{
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+}
+@-webkit-keyframes easterEgg {
+	from{
+		-webkit-transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+	to{
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+}
+@-moz-keyframes easterEgg {
+	from{
+		-webkit-transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+	to{
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+}
+@-o-keyframes easterEgg {
+	from{
+		-webkit-transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+	to{
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Navidad</title>
+		
+		<link rel="stylesheet" type="text/css" href="style/fireworks.css" media="screen" />
+		<link rel="stylesheet" href="style/jquery-ui.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style/prettify.css"/> 
+		<link rel="stylesheet" type="text/css" href="style/animationEasterEgg.css">
+		<link rel="stylesheet" type="text/css" href="style/indexStyleCss.css">
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="fireworks-template">
+			<div id="fw" class="firework"></div>
+			<div id="fp" class="fireworkParticle"><img src="image/particles.gif" alt="" /></div>
+		</div>
+		<div id="fireContainer"></div>
+		<div id="easterEgg" onclick="var r=4+parseInt(3*22);for(var i=r; i--;){setTimeout('createFirework(8,14,2,null,null,null,null,null,Math.random()>0.5,true)',(i+1)*(1+parseInt(Math.random()*1000)));}return false">
+		</div>
+
+		<div id="marginOfApplication">
+			<div id="sublimeText" class="maximizeSublimeText">
+				<div id="horizontalBar">
+					<button type="button" class="button" id="closet"></button>
+					<button type="button" class="button" id="hide"></button>
+					<button type="button" class="button" id="minimize"></button>
+				</div>
+				<div id="window">
+					<div id="accountant" class="maximizeAccountant"></div>
+					<div id="wordsContainer" class="maximizeWordsContainer"></div>
+					<div id="treeTrunk" class="maximizeTreeTrunk"></div>
+					<div id="merryXmas" class="maximizeMerryXmas"></div>
+				</div>
+			</div>
+		</div>
+		<div id="marginOftaskbar">
+			<div id="taskbar">
+				<a id="iconSkype">
+					<img src="https://icon-icons.com/icons2/840/PNG/512/Skype_icon-icons.com_66927.png">
+				</a>
+				<a id="iconSublimeText">
+					<img  src="https://www.dariobf.com/wp-content/uploads//2012/10/sublime_text_icon_2181.png">
+				</a>
+				<a id="iconChrome">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png">
+				</a>
+				<a id="iconFirefox">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Firefox_Logo%2C_2017.png">
+				</a>
+				<a id="iconSafari">
+					<img src="https://pngimg.com/uploads/safari/safari_PNG24.png">
+				</a>
+				<a id="iconOpera">
+					<img src="http://pngimg.com/uploads/opers/opers_PNG15.png"> 
+				</a>
+				<a id="iconItunes">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ITunes_12.2_logo.png/768px-ITunes_12.2_logo.png">
+				</a>
+				<a id="iconMysqlWorkbench">
+					<img src="https://icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png">
+				</a>
+				<a id="iconVlc">
+					<img src="https://icon-icons.com/icons2/1381/PNG/512/vlc_93519.png">
+				</a>
+				<a id="iconAppStore">
+					<img src="https://vignette.wikia.nocookie.net/minecraftpe/images/a/a8/App_Store_logo.png/revision/latest?cb=20140620172404&path-prefix=es">
+				</a>
+				<a id="iconTrashEmpty">
+					<img src="https://www.imyfone.com/images/2016/06/Trash-Empty.png">
+				</a>	
+			</div>
+		</div>
+		
+		<div id='backgroundBlack'></div>
+		<div id="alertCloset" class="alerts closetAlert">
+			<img src='http://www.bauru.usp.br/wp-content/uploads/alerta-300x290.png' id='iconAlert'></img>
+			<p>You can not close Christmas</p>
+			<div id='toggleAlert'><button type='button' class='button buttonOK' id='button'> OK </button></div>
+		</div>
+		<div id="marginOftest">
+			<div id="prueba">
+				<div>N</div>
+				<div>E</div>
+				<div style='padding-right: 14px;'>W</div>
+				<div>Y</div>
+				<div>E</div>
+				<div>A</div>
+				<div style='padding-right: 14px;'>R</div>
+				<div>F</div>
+				<div>O</div>
+				<div>R:</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="script/soundmanager2-nodebug-jsmin.js"></script>
+		<script type="text/javascript" src="script/fireworks.js"></script>
+		<script type="text/javascript" src="script/jquery.transform2d.js"></script>
+		<script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="script/prettify.js"></script>
+		<script type="text/javascript" src="script/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="script/jquery.slimscroll.js"></script>
+		<script type="text/javascript" src="script/index.js"></script>
+		<script type="text/javascript">
+
+		  //enable syntax highlighter
+		  prettyPrint();
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-3112455-22']);
+		  _gaq.push(['_setDomainName', 'none']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</body>
+</html>
